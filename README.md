@@ -52,7 +52,7 @@ Delete node-group:
 			   
     eksctl delete nodegroup --cluster=eksdemo \
                        --region=us-east-1 \
-		          			   --name=eksdemo-ng-public
+		       --name=eksdemo-ng-public
 Delete Cluster:
 				   
     eksctl delete cluster --name=eksdemo \
