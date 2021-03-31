@@ -27,6 +27,9 @@
                       --region=us-east-1 \
                       --zones=us-east-1a,us-east-1b \
                       --without-nodegroup 
+
+![image](https://user-images.githubusercontent.com/54719289/113126467-93fe1880-920f-11eb-8643-23b5bec09ab3.png)
+		      
 					  
 # Step6: Add Iam-Oidc-Providers:
     eksctl utils associate-iam-oidc-provider \
