@@ -39,7 +39,9 @@ Note: connect aws services from Kubernetes we require oidc provider,create sa an
         --region us-east-1 \
         --cluster eksdemo \
 	--approve
-					  
+		
+![image](https://user-images.githubusercontent.com/54719289/113127899-2f43bd80-9211-11eb-901f-c4d0bb6144db.png)
+
 # Step7: Create node-group:
     eksctl create nodegroup --cluster=eksdemo \
                        --region=us-east-1 \
