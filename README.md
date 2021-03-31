@@ -32,6 +32,9 @@
 		      
 					  
 # Step6: Add Iam-Oidc-Providers:
+
+Note: connect aws services from Kubernetes we require oidc provider,create sa and then it will attach to oidc Provider
+
     eksctl utils associate-iam-oidc-provider \
         --region us-east-1 \
         --cluster eksdemo \
@@ -47,13 +50,17 @@
                        --nodes-max=4 \
                        --node-volume-size=10 \
                        --ssh-access \
-                       --ssh-public-key=ekscluster \
+                       --ssh-public-key=archu-acc \
                        --managed \
                        --asg-access \
                        --external-dns-access \
                        --full-ecr-access \
                        --appmesh-access \
-                       --alb-ingress-access	
+                       --alb-ingress-access
+		       
+![image](https://user-images.githubusercontent.com/54719289/113127703-f4da2080-9210-11eb-9a74-c04f07e98159.png)
+
+
 					   
 # CleanUP
 Delete node-group:
