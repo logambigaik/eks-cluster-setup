@@ -1,7 +1,9 @@
 # EKS clustercreation using eksctl:
 
 # Step1: Take EC2 Instance with t2.xlarge instance type
-# Step2: Create IAM Role with Admin policy for eks-cluster and attach to ec2-instance
+# Step2: Create IAM Role with Admin policy for eks-cluster and attach to ec2-instance (attach Admin policy and Awscloudformation Policy
+![image](https://user-images.githubusercontent.com/54719289/113117071-0669fb00-9206-11eb-9cd6-f749cc8e4c93.png)
+
 # Step3: Install kubectl
 	curl -o kubectl https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/kubectl
 	chmod +x ./kubectl
