@@ -62,6 +62,9 @@ Note: connect aws services from Kubernetes we require oidc provider,create sa an
 		       
 ![image](https://user-images.githubusercontent.com/54719289/113127703-f4da2080-9210-11eb-9a74-c04f07e98159.png)
 
+![image](https://user-images.githubusercontent.com/54719289/113128196-7631b300-9211-11eb-954a-f360dd2dfb5a.png)
+
+
 
 					   
 # CleanUP
