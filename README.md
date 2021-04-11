@@ -42,7 +42,12 @@ In case , you enter any error, run the below command,
 	
 	eksctl utils describe-stacks --region=eu-west-2 --cluster=eksdemo
 	
+	
 ![image](https://user-images.githubusercontent.com/54719289/114321721-193cd380-9b14-11eb-9925-f7fa3f0ecd67.png)
+
+	if its related to authorization error, do aws configure that will fix the error, 
+	Also not sure about the subnets then use --fargate--> it picks the default vpc, subnets
+	
 
 		      
 					  
