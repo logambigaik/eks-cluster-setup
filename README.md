@@ -29,6 +29,21 @@
                       --without-nodegroup 
 
 ![image](https://user-images.githubusercontent.com/54719289/113126467-93fe1880-920f-11eb-8643-23b5bec09ab3.png)
+
+In case , you enter any error, run the below command,
+
+	For example eks-demo for london ,
+		eksctl create cluster --name=eksdemo \
+                  --region=eu-west-2 \
+                  --zones=eu-west-2a,eu-west-2b \
+                  --without-nodegroup 
+
+	to check the subnet available in region: aws ec2 describe-subnets --region=eu-west-2
+	
+	eksctl utils describe-stacks --region=eu-west-2 --cluster=eksdemo
+	
+![image](https://user-images.githubusercontent.com/54719289/114321721-193cd380-9b14-11eb-9925-f7fa3f0ecd67.png)
+
 		      
 					  
 # Step6: Add Iam-Oidc-Providers:
