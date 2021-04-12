@@ -42,6 +42,9 @@ In case , you encounter any error, run the below command,
 	
 	eksctl utils describe-stacks --region=eu-west-2 --cluster=eksdemo
 	
+	![image](https://user-images.githubusercontent.com/54719289/114469429-0e9e3f00-9be5-11eb-8331-84216eb90b6e.png)
+
+	
 	
 ![image](https://user-images.githubusercontent.com/54719289/114321721-193cd380-9b14-11eb-9925-f7fa3f0ecd67.png)
 
