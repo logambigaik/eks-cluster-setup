@@ -1,7 +1,7 @@
 # EKS clustercreation using eksctl:
 
 # Step1: Take EC2 Instance with t2.xlarge instance type
-# Step2: Create IAM Role with Admin policy for eks-cluster and attach to ec2-instance
+# Step2: Create IAM Role with Admin policy for eks-cluster and attach to ec2-instance .Also do aws configure
 
 ![image](https://user-images.githubusercontent.com/54719289/113122763-d7568800-920b-11eb-907d-ba4b39f84216.png)
 
