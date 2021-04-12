@@ -30,7 +30,7 @@
 
 ![image](https://user-images.githubusercontent.com/54719289/113126467-93fe1880-920f-11eb-8643-23b5bec09ab3.png)
 
-In case , you enter any error, run the below command,
+In case , you encounter any error, run the below command,
 
 	For example eks-demo for london ,
 		eksctl create cluster --name=eksdemo \
