@@ -52,7 +52,11 @@ In case , you encounter any error, run the below command,
 	Also not sure about the subnets then use --fargate--> it picks the default vpc, subnets
 	
 
-		      
+		
+	kubectl cluster-info
+![image](https://user-images.githubusercontent.com/54719289/115241962-50fdd980-a119-11eb-9a93-5ad942fef2db.png)
+
+
 					  
 # Step6: Add Iam-Oidc-Providers:
 
