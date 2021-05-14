@@ -23,6 +23,43 @@
     eksctl version
 
 # Step5: Cluster creation:
+
+Use the below script to create cluster and nodegroup-> save it as cluster-create.yml
+```
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: EKS-cluster
+  region: eu-west-2
+ 
+nodeGroups:
+  - name: ng-1
+    instanceType: t2.small
+    desiredCapacity: 2
+    ssh:
+      publicKeyName: Archu-acc
+  - name: ng-mixed
+    minSize: 2
+    maxSize: 3
+    instancesDistribution:
+      maxPrice: 0.2
+      instanceTypes: ['t2.small']
+      onDemandBaseCapacity: 0
+      onDemandPercentageAboveBaseCapacity: 50
+    ssh:
+      publicKeyName: Archu-acc
+
+```
+
+Command to execute the script:
+
+eksctl create cluster -f cluster-create.yml
+
+
+Another method:
+===============
+
     eksctl create cluster --name=eksdemo \
                       --region=us-east-1 \
                       --zones=us-east-1a,us-east-1b \
