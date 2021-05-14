@@ -53,7 +53,7 @@ nodeGroups:
 ```
 
 Command to execute the script:
-
+=============================
 eksctl create cluster -f cluster-create.yml
 
 
